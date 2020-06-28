@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<title>SafeTransport.com</title>
+    
+</head>
+<body>
+	<div class="header">
+		<nav class="navbar navbar-dark" style="background-color: #B81313;">
+			<a class="navbar-brand" href="#">
+				<img src="C:\Users\Preethi\Desktop\t3.jpg" width="60" height="60" class="d-inline-block align-center" alt="">
+				<b>SafeTransport.com</b>
+				<ul class="nav justify-content-end">
+		  			<li class="nav-item">
+		   				<a class="btn btn-dark" href="#" style="margin-right: 30px" role="button" >
+		   				My List
+						</a>
+	  					<a class="btn btn-dark" href="#" role="button" >
+		    			Log out
+		  				</a>
+		  			</li>
+		  		</ul>
+			</a>
+	  	</nav>
+	</div>
+	<div class="container container-fluid" >
+		<form action="" method="post" style="box-sizing :content-box;width: auto;height: auto;border: 1px solid black;padding: 60px;background-color: #866E6E;margin-top: 40px;margin-bottom: 80px;">
+	        <div class="form-group" >
+			    <label ><h5>Name</h5></label><br>
+			    <input type="text" size="35px" name="name" placeholder="Enter your first name" required>
+		    </div>
+		    <div class="form-group" >
+			    <label ><h5>From</h5></label><br>
+			    <input type="text" size="35px" name="from" placeholder="Place">
+		    </div>
+		    <div class="form-group" >
+			    <label ><h5>To</h5></label><br>
+			    <input type="text" size="35px" name="to"  placeholder="Place">
+		    </div>
+		    <div class="row">
+			    <div class="form-group col-md-6" >
+				    <label ><h5>Phone number</h5></label><br>
+				    <input type="integer" size="35px" name="phone" placeholder="Enter your number here">
+			    </div>
+			    <div class="form-group col-md-6">
+			      <label for="pay">Affordable payment</label>
+			      <input type="integer" class="form-control" id="pay" placeholder="">
+			    </div>
+		    </div>
+		    <label><h5>Items</h5></label><br>
+            <div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" name="fragile" id="fragile">
+			  <label class="form-check-label" for="fragile">
+			    Fragile items
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" name="electronics"  id="electronics" >
+			  <label class="form-check-label" for="electronics">
+			    Electronics
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" name="heavy" id="heavy" >
+			  <label class="form-check-label" for="heavy">
+			    Heavy bulky
+			  </label>
+			</div>
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" value="" name="all" id="all" >
+			  <label class="form-check-label" for="all">
+			    All the above
+			  </label>
+			</div><br>
+			<div class="form-group" >
+			    <label ><h5>Weight (approx)</h5></label><br>
+			    <input type="integer" size="35px" name="weight" >
+		    </div>
+		    <div class="form-group" >
+			    <label ><h5>Number of items</h5></label><br>
+			    <input type="integer" size="35px" name="item_no" >
+		    </div>
+		    <div class="form-group" >
+			    <fieldset>
+			    	<div class="form-group">
+				      <label ><h5>Vehicle required</h5></label>
+				      <select class="form-control" name="vehicle">
+				        <option value="truck/lorry">Truck/Lorry</option>
+				        <option value="tempo">Tempo</option>
+				      </select>
+				    </div>
+				</fieldset>
+		    </div>
+		    <div class="form-group" >
+			    <label ><h5>Date and Time</h5></label><br>
+			    <input type="datetime" size="35px" name="date" placeholder="Enter date and time">
+		    </div>
+	        <div class="form-group" >
+			    <label for="exampleInputEmail1"><h5>Email address</h5></label><br>
+			    <input type="email" size="35px" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Enter your email here">
+		    </div>
+			<div class="form-group">
+			    <label for="exampleInputPassword1"><h5>Password</h5></label><br>
+			    <input type="password" size="35px" id="exampleInputPassword1" name="pwd" placeholder="Enter your password">
+			</div><br>
+			
+			<center><button type="submit" class="btn" style="background-color:#B81313;color: black;font-size: 40px">Create</button></center>
+	    </form>
+	</div>
+	<div class="footer">
+		<footer class="section footer-classic pull-left " style="background-color: #B81313;color: white;bottom: 0px;position: fixed;width: 100%;height: 40px;">
+	        <div class="container ">
+	          <div class="row row-30 d-inline-block align-center ">
+	              
+	            <h6 class="rights"><span>© </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></h6>
+	              
+	          </div>
+	        </div>
+	        
+	    </footer>
+    </div>
+
+</body>
+</html>
